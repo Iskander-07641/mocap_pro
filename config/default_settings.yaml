@@ -1,0 +1,320 @@
+# Mocap Pro - Конфигурация по умолчанию
+# Версия: 1.0.0
+# Автор: Mocap Pro Team
+
+version: "1.0.0"
+last_modified: "2024-01-21"
+
+# ========== НАСТРОЙКИ ПРИЛОЖЕНИЯ ==========
+application:
+  name: "Motion Capture Pro"
+  version: "1.0.0"
+  organization: "Mocap Pro Team"
+  language: "ru"  # ru, en, zh
+  auto_save: true
+  auto_save_interval: 300  # секунды
+  max_recent_files: 10
+  enable_analytics: false
+  enable_crash_reports: true
+
+# ========== НАСТРОЙКИ ИНТЕРФЕЙСА ==========
+interface:
+  theme: "dark"  # dark, light, system
+  color_scheme: "blue"
+  font_family: "Segoe UI"
+  font_size: 10
+  icon_theme: "modern"
+  enable_animations: true
+  animation_speed: "normal"  # slow, normal, fast
+  
+  window:
+    default_width: 1280
+    default_height: 720
+    maximize_on_start: false
+    remember_window_state: true
+    
+  docking:
+    enable_docking: true
+    floating_windows: true
+    tabbed_windows: true
+    
+  performance:
+    enable_opengl: true
+    texture_quality: "high"  # low, medium, high
+    update_rate: 60  # Hz
+
+# ========== НАСТРОЙКИ СКЕЛЕТА ==========
+skeleton:
+  default_preset: "humanoid_mediapipe"
+  auto_detect_skeleton: true
+  confidence_threshold: 0.5
+  smooth_factor: 0.5
+  enable_ik: true
+  ik_iterations: 10
+  ik_tolerance: 0.01
+  
+  visualization:
+    show_joints: true
+    show_bones: true
+    show_labels: false
+    joint_size: 8
+    bone_thickness: 3
+    show_confidence: true
+    confidence_style: "heatmap"  # heatmap, numeric, both
+    
+  constraints:
+    enable_limits: true
+    angle_limits: true
+    twist_limits: true
+    collision_detection: false
+
+# ========== НАСТРОЙКИ ТРЕКИНГА ==========
+tracking:
+  mode: "PRECISE"  # FAST, PRECISE, ULTRA, MANUAL
+  enable_kalman_filter: true
+  kalman_q: 0.01
+  kalman_r: 0.1
+  prediction_frames: 2
+  interpolation_frames: 1
+  
+  mediapipe:
+    model_complexity: 2  # 0, 1, 2
+    enable_segmentation: false
+    smooth_landmarks: true
+    refine_face_landmarks: true
+    min_detection_confidence: 0.5
+    min_tracking_confidence: 0.5
+    
+  stabilization:
+    enable_stabilization: true
+    position_smoothing: 0.3
+    rotation_smoothing: 0.2
+    velocity_smoothing: 0.1
+
+# ========== НАСТРОЙКИ КАМЕРЫ ==========
+camera:
+  default_resolution: "1280x720"
+  default_fps: 30
+  auto_select_camera: true
+  camera_index: 0
+  
+  calibration:
+    auto_calibrate: true
+    calibration_pattern: "aruco"  # aruco, chessboard
+    aruco_dict: "DICT_6X6_250"
+    chessboard_size: [9, 6]
+    square_size: 0.025  # метры
+    
+  multi_camera:
+    enable_multi_camera: false
+    max_cameras: 4
+    sync_mode: "software"  # hardware, software
+    sync_tolerance: 0.01  # секунды
+
+# ========== НАСТРОЙКИ ЗАПИСИ ==========
+recording:
+  default_format: "bvh"  # bvh, json, fbx, custom
+  default_fps: 30
+  pre_record_buffer: 30  # кадров
+  post_record_buffer: 10
+  
+  compression:
+    enable_compression: true
+    compression_level: "medium"  # low, medium, high
+    position_precision: 0.001  # метры
+    rotation_precision: 0.01   # градусы
+    
+  layers:
+    max_layers: 10
+    default_layer_name: "Base Animation"
+    enable_blending: true
+    blend_mode: "override"  # override, additive, multiplicative
+
+# ========== НАСТРОЙКИ ЭКСПОРТА ==========
+export:
+  default_directory: "$HOME/MocapPro/Exports"
+  create_subdirectories: true
+  subdirectory_pattern: "$DATE/$PROJECT"
+  
+  bvh:
+    version: "1.0"  # 1.0, 2.0
+    rotation_order: "ZYX"
+    scale_factor: 1.0
+    convert_to_cm: true
+    apply_root_motion: true
+    optimize_channels: true
+    compression_threshold: 0.001
+    
+  blender:
+    auto_send: false
+    blender_path: "C:/Program Files/Blender Foundation/Blender/blender.exe"
+    python_script_path: "$APP_DIR/scripts/blender_import.py"
+    import_animation: true
+    retarget_animation: true
+    
+  unity:
+    unity_project_path: ""
+    avatar_name: "MocapAvatar"
+    import_animations: true
+    create_controller: true
+    
+  unreal:
+    unreal_project_path: ""
+    skeleton_name: "MocapSkeleton"
+    import_animation: true
+    create_blueprint: true
+
+# ========== НАСТРОЙКИ ТАЙМЛАЙНА ==========
+timeline:
+  default_duration: 60  # секунды
+  time_format: "timecode"  # timecode, seconds, frames
+  frames_per_second: 30
+  snap_to_grid: true
+  grid_spacing: 0.1  # секунды
+  
+  zoom:
+    default_scale: 100  # пикселей/секунду
+    min_scale: 10
+    max_scale: 1000
+    zoom_speed: 1.2
+    
+  tracks:
+    default_height: 60
+    min_height: 30
+    max_height: 200
+    show_track_headers: true
+    color_coded_tracks: true
+
+# ========== НАСТРОЙКИ КЛАВИШ ==========
+hotkeys:
+  recording:
+    start_recording: "Ctrl+R"
+    stop_recording: "Ctrl+Shift+R"
+    pause_recording: "Space"
+    take_screenshot: "Ctrl+P"
+    
+  playback:
+    play_pause: "Space"
+    stop: "S"
+    rewind: "Left"
+    forward: "Right"
+    goto_start: "Home"
+    goto_end: "End"
+    
+  editing:
+    undo: "Ctrl+Z"
+    redo: "Ctrl+Y"
+    cut: "Ctrl+X"
+    copy: "Ctrl+C"
+    paste: "Ctrl+V"
+    delete: "Delete"
+    select_all: "Ctrl+A"
+    
+  view:
+    reset_view: "R"
+    toggle_fullscreen: "F11"
+    show_hide_timeline: "Ctrl+T"
+    show_hide_properties: "Ctrl+P"
+    
+  navigation:
+    next_camera: "Tab"
+    previous_camera: "Shift+Tab"
+    toggle_camera_view: "C"
+    toggle_skeleton_view: "J"
+
+# ========== НАСТРОЙКИ ПРОИЗВОДИТЕЛЬНОСТИ ==========
+performance:
+  max_threads: 4
+  thread_priority: "normal"  # low, normal, high
+  enable_caching: true
+  cache_size_mb: 512
+  
+  gpu:
+    enable_gpu_acceleration: true
+    gpu_backend: "cuda"  # cuda, opencl, cpu
+    gpu_device_index: 0
+    
+  memory:
+    enable_swap: true
+    swap_size_mb: 2048
+    auto_cleanup: true
+    cleanup_interval: 60  # секунды
+
+# ========== НАСТРОЙКИ ЛОГИРОВАНИЯ ==========
+logging:
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_to_file: true
+  log_directory: "$HOME/MocapPro/Logs"
+  max_log_files: 10
+  max_log_size_mb: 10
+  
+  console:
+    enable_console: true
+    console_level: "WARNING"
+    show_timestamps: true
+    
+  file:
+    enable_rotation: true
+    rotation_interval: "daily"  # hourly, daily, weekly
+
+# ========== НАСТРОЙКИ СЕТИ ==========
+network:
+  enable_network: false
+  server_port: 8080
+  client_port: 8081
+  
+  streaming:
+    enable_streaming: false
+    streaming_format: "osc"  # osc, tcp, udp
+    streaming_fps: 30
+    destination_ip: "127.0.0.1"
+    destination_port: 7000
+    
+  sync:
+    enable_sync: false
+    sync_protocol: "ntp"  # ntp, ptp
+    sync_interval: 60
+
+# ========== ПУТИ К ФАЙЛАМ ==========
+paths:
+  projects: "$HOME/MocapPro/Projects"
+  exports: "$HOME/MocapPro/Exports"
+  presets: "$APP_DIR/data/presets"
+  models: "$APP_DIR/data/models"
+  animations: "$APP_DIR/data/animations"
+  configs: "$APP_DIR/config"
+  logs: "$HOME/MocapPro/Logs"
+  temp: "$TEMP/MocapPro"
+  
+  recent_projects: []
+  recent_exports: []
+
+# ========== НАСТРОЙКИ ОБНОВЛЕНИЙ ==========
+updates:
+  check_for_updates: true
+  update_channel: "stable"  # stable, beta, alpha
+  auto_download_updates: false
+  notify_on_update: true
+  
+  backup:
+    enable_backup: true
+    backup_interval: 7  # дней
+    max_backups: 10
+    backup_directory: "$HOME/MocapPro/Backups"
+
+# ========== СПРАВОЧНАЯ ИНФОРМАЦИЯ ==========
+help:
+  show_tooltips: true
+  show_status_hints: true
+  enable_tutorial: true
+  tutorial_version: "1.0"
+  
+  documentation:
+    language: "ru"
+    offline_docs: true
+    docs_path: "$APP_DIR/docs"
+    
+  support:
+    email: "support@mocappro.com"
+    forum_url: "https://forum.mocappro.com"
+    documentation_url: "https://docs.mocappro.com"

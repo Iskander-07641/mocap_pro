@@ -1,0 +1,801 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-21",
+  "author": "Mocap Pro Team",
+  "description": "Пресеты скелетов для Motion Capture Pro",
+
+  "skeleton_presets": {
+    "humanoid_mediapipe": {
+      "name": "Humanoid (MediaPipe Holistic)",
+      "description": "Полный человеческий скелет на основе MediaPipe Holistic (33 точки)",
+      "joint_count": 33,
+      "hierarchy": {
+        "nose": {
+          "parent": null,
+          "joint_type": "HEAD",
+          "color": [255, 200, 100],
+          "mirror": "nose"
+        },
+        "left_eye_inner": {
+          "parent": "nose",
+          "joint_type": "EYE",
+          "color": [200, 150, 100],
+          "mirror": "right_eye_inner"
+        },
+        "left_eye": {
+          "parent": "left_eye_inner",
+          "joint_type": "EYE",
+          "color": [200, 150, 100],
+          "mirror": "right_eye"
+        },
+        "left_eye_outer": {
+          "parent": "left_eye",
+          "joint_type": "EYE",
+          "color": [200, 150, 100],
+          "mirror": "right_eye_outer"
+        },
+        "right_eye_inner": {
+          "parent": "nose",
+          "joint_type": "EYE",
+          "color": [200, 150, 100],
+          "mirror": "left_eye_inner"
+        },
+        "right_eye": {
+          "parent": "right_eye_inner",
+          "joint_type": "EYE",
+          "color": [200, 150, 100],
+          "mirror": "left_eye"
+        },
+        "right_eye_outer": {
+          "parent": "right_eye",
+          "joint_type": "EYE",
+          "color": [200, 150, 100],
+          "mirror": "left_eye_outer"
+        },
+        "left_ear": {
+          "parent": "left_eye_outer",
+          "joint_type": "EAR",
+          "color": [150, 100, 50],
+          "mirror": "right_ear"
+        },
+        "right_ear": {
+          "parent": "right_eye_outer",
+          "joint_type": "EAR",
+          "color": [150, 100, 50],
+          "mirror": "left_ear"
+        },
+        "mouth_left": {
+          "parent": "nose",
+          "joint_type": "MOUTH",
+          "color": [255, 100, 100],
+          "mirror": "mouth_right"
+        },
+        "mouth_right": {
+          "parent": "nose",
+          "joint_type": "MOUTH",
+          "color": [255, 100, 100],
+          "mirror": "mouth_left"
+        },
+        "left_shoulder": {
+          "parent": "neck",
+          "joint_type": "SHOULDER",
+          "color": [100, 200, 255],
+          "mirror": "right_shoulder"
+        },
+        "right_shoulder": {
+          "parent": "neck",
+          "joint_type": "SHOULDER",
+          "color": [100, 200, 255],
+          "mirror": "left_shoulder"
+        },
+        "left_elbow": {
+          "parent": "left_shoulder",
+          "joint_type": "ELBOW",
+          "color": [100, 150, 255],
+          "mirror": "right_elbow"
+        },
+        "right_elbow": {
+          "parent": "right_shoulder",
+          "joint_type": "ELBOW",
+          "color": [100, 150, 255],
+          "mirror": "left_elbow"
+        },
+        "left_wrist": {
+          "parent": "left_elbow",
+          "joint_type": "WRIST",
+          "color": [100, 100, 255],
+          "mirror": "right_wrist"
+        },
+        "right_wrist": {
+          "parent": "right_elbow",
+          "joint_type": "WRIST",
+          "color": [100, 100, 255],
+          "mirror": "left_wrist"
+        },
+        "left_pinky": {
+          "parent": "left_wrist",
+          "joint_type": "FINGER",
+          "color": [150, 100, 255],
+          "mirror": "right_pinky"
+        },
+        "right_pinky": {
+          "parent": "right_wrist",
+          "joint_type": "FINGER",
+          "color": [150, 100, 255],
+          "mirror": "left_pinky"
+        },
+        "left_index": {
+          "parent": "left_wrist",
+          "joint_type": "FINGER",
+          "color": [150, 100, 255],
+          "mirror": "right_index"
+        },
+        "right_index": {
+          "parent": "right_wrist",
+          "joint_type": "FINGER",
+          "color": [150, 100, 255],
+          "mirror": "left_index"
+        },
+        "left_thumb": {
+          "parent": "left_wrist",
+          "joint_type": "THUMB",
+          "color": [255, 100, 150],
+          "mirror": "right_thumb"
+        },
+        "right_thumb": {
+          "parent": "right_wrist",
+          "joint_type": "THUMB",
+          "color": [255, 100, 150],
+          "mirror": "left_thumb"
+        },
+        "left_hip": {
+          "parent": "pelvis",
+          "joint_type": "HIP",
+          "color": [100, 255, 100],
+          "mirror": "right_hip"
+        },
+        "right_hip": {
+          "parent": "pelvis",
+          "joint_type": "HIP",
+          "color": [100, 255, 100],
+          "mirror": "left_hip"
+        },
+        "left_knee": {
+          "parent": "left_hip",
+          "joint_type": "KNEE",
+          "color": [150, 255, 100],
+          "mirror": "right_knee"
+        },
+        "right_knee": {
+          "parent": "right_hip",
+          "joint_type": "KNEE",
+          "color": [150, 255, 100],
+          "mirror": "left_knee"
+        },
+        "left_ankle": {
+          "parent": "left_knee",
+          "joint_type": "ANKLE",
+          "color": [100, 255, 150],
+          "mirror": "right_ankle"
+        },
+        "right_ankle": {
+          "parent": "right_knee",
+          "joint_type": "ANKLE",
+          "color": [100, 255, 150],
+          "mirror": "left_ankle"
+        },
+        "left_heel": {
+          "parent": "left_ankle",
+          "joint_type": "HEEL",
+          "color": [100, 255, 200],
+          "mirror": "right_heel"
+        },
+        "right_heel": {
+          "parent": "right_ankle",
+          "joint_type": "HEEL",
+          "color": [100, 255, 200],
+          "mirror": "left_heel"
+        },
+        "left_foot_index": {
+          "parent": "left_ankle",
+          "joint_type": "TOE",
+          "color": [100, 255, 255],
+          "mirror": "right_foot_index"
+        },
+        "right_foot_index": {
+          "parent": "right_ankle",
+          "joint_type": "TOE",
+          "color": [100, 255, 255],
+          "mirror": "left_foot_index"
+        },
+        "neck": {
+          "parent": "nose",
+          "joint_type": "NECK",
+          "color": [255, 200, 150],
+          "mirror": "neck"
+        },
+        "pelvis": {
+          "parent": "neck",
+          "joint_type": "SPINE",
+          "color": [200, 150, 100],
+          "mirror": "pelvis"
+        }
+      },
+      "default_rest_pose": "T_POSE",
+      "scale_reference": 1.75,
+      "compatibility": ["blender", "maya", "unity", "unreal"]
+    },
+
+    "simplified_humanoid": {
+      "name": "Simplified Humanoid (15 joints)",
+      "description": "Упрощенный человеческий скелет для быстрой анимации",
+      "joint_count": 15,
+      "hierarchy": {
+        "hips": {
+          "parent": null,
+          "joint_type": "SPINE",
+          "color": [100, 200, 100],
+          "mirror": "hips"
+        },
+        "spine": {
+          "parent": "hips",
+          "joint_type": "SPINE",
+          "color": [150, 200, 100],
+          "mirror": "spine"
+        },
+        "chest": {
+          "parent": "spine",
+          "joint_type": "SPINE",
+          "color": [200, 200, 100],
+          "mirror": "chest"
+        },
+        "neck": {
+          "parent": "chest",
+          "joint_type": "NECK",
+          "color": [255, 200, 100],
+          "mirror": "neck"
+        },
+        "head": {
+          "parent": "neck",
+          "joint_type": "HEAD",
+          "color": [255, 150, 100],
+          "mirror": "head"
+        },
+        "left_shoulder": {
+          "parent": "chest",
+          "joint_type": "SHOULDER",
+          "color": [100, 200, 255],
+          "mirror": "right_shoulder"
+        },
+        "left_upper_arm": {
+          "parent": "left_shoulder",
+          "joint_type": "UPPER_ARM",
+          "color": [100, 150, 255],
+          "mirror": "right_upper_arm"
+        },
+        "left_lower_arm": {
+          "parent": "left_upper_arm",
+          "joint_type": "LOWER_ARM",
+          "color": [100, 100, 255],
+          "mirror": "right_lower_arm"
+        },
+        "left_hand": {
+          "parent": "left_lower_arm",
+          "joint_type": "HAND",
+          "color": [150, 100, 255],
+          "mirror": "right_hand"
+        },
+        "right_shoulder": {
+          "parent": "chest",
+          "joint_type": "SHOULDER",
+          "color": [100, 200, 255],
+          "mirror": "left_shoulder"
+        },
+        "right_upper_arm": {
+          "parent": "right_shoulder",
+          "joint_type": "UPPER_ARM",
+          "color": [100, 150, 255],
+          "mirror": "left_upper_arm"
+        },
+        "right_lower_arm": {
+          "parent": "right_upper_arm",
+          "joint_type": "LOWER_ARM",
+          "color": [100, 100, 255],
+          "mirror": "left_lower_arm"
+        },
+        "right_hand": {
+          "parent": "right_lower_arm",
+          "joint_type": "HAND",
+          "color": [150, 100, 255],
+          "mirror": "left_hand"
+        },
+        "left_upper_leg": {
+          "parent": "hips",
+          "joint_type": "UPPER_LEG",
+          "color": [100, 255, 100],
+          "mirror": "right_upper_leg"
+        },
+        "left_lower_leg": {
+          "parent": "left_upper_leg",
+          "joint_type": "LOWER_LEG",
+          "color": [150, 255, 100],
+          "mirror": "right_lower_leg"
+        },
+        "left_foot": {
+          "parent": "left_lower_leg",
+          "joint_type": "FOOT",
+          "color": [100, 255, 150],
+          "mirror": "right_foot"
+        },
+        "right_upper_leg": {
+          "parent": "hips",
+          "joint_type": "UPPER_LEG",
+          "color": [100, 255, 100],
+          "mirror": "left_upper_leg"
+        },
+        "right_lower_leg": {
+          "parent": "right_upper_leg",
+          "joint_type": "LOWER_LEG",
+          "color": [150, 255, 100],
+          "mirror": "left_lower_leg"
+        },
+        "right_foot": {
+          "parent": "right_lower_leg",
+          "joint_type": "FOOT",
+          "color": [100, 255, 150],
+          "mirror": "left_foot"
+        }
+      },
+      "default_rest_pose": "T_POSE",
+      "scale_reference": 1.75,
+      "compatibility": ["blender", "unity", "unreal"]
+    },
+
+    "quadruped": {
+      "name": "Quadruped Animal",
+      "description": "Скелет четвероногого животного (собака, кошка, лошадь)",
+      "joint_count": 24,
+      "hierarchy": {
+        "root": {
+          "parent": null,
+          "joint_type": "SPINE",
+          "color": [150, 100, 50],
+          "mirror": "root"
+        },
+        "spine_01": {
+          "parent": "root",
+          "joint_type": "SPINE",
+          "color": [180, 120, 60],
+          "mirror": "spine_01"
+        },
+        "spine_02": {
+          "parent": "spine_01",
+          "joint_type": "SPINE",
+          "color": [200, 140, 70],
+          "mirror": "spine_02"
+        },
+        "spine_03": {
+          "parent": "spine_02",
+          "joint_type": "SPINE",
+          "color": [220, 160, 80],
+          "mirror": "spine_03"
+        },
+        "neck": {
+          "parent": "spine_03",
+          "joint_type": "NECK",
+          "color": [240, 180, 90],
+          "mirror": "neck"
+        },
+        "head": {
+          "parent": "neck",
+          "joint_type": "HEAD",
+          "color": [255, 200, 100],
+          "mirror": "head"
+        },
+        "jaw": {
+          "parent": "head",
+          "joint_type": "JAW",
+          "color": [200, 150, 100],
+          "mirror": "jaw"
+        },
+        "tail_01": {
+          "parent": "spine_03",
+          "joint_type": "TAIL",
+          "color": [150, 100, 150],
+          "mirror": "tail_01"
+        },
+        "tail_02": {
+          "parent": "tail_01",
+          "joint_type": "TAIL",
+          "color": [180, 120, 180],
+          "mirror": "tail_02"
+        },
+        "tail_03": {
+          "parent": "tail_02",
+          "joint_type": "TAIL",
+          "color": [200, 140, 200],
+          "mirror": "tail_03"
+        },
+        "left_front_shoulder": {
+          "parent": "spine_01",
+          "joint_type": "SHOULDER",
+          "color": [100, 150, 255],
+          "mirror": "right_front_shoulder"
+        },
+        "left_front_upper_leg": {
+          "parent": "left_front_shoulder",
+          "joint_type": "UPPER_LEG",
+          "color": [100, 120, 255],
+          "mirror": "right_front_upper_leg"
+        },
+        "left_front_lower_leg": {
+          "parent": "left_front_upper_leg",
+          "joint_type": "LOWER_LEG",
+          "color": [100, 100, 255],
+          "mirror": "right_front_lower_leg"
+        },
+        "left_front_paw": {
+          "parent": "left_front_lower_leg",
+          "joint_type": "FOOT",
+          "color": [150, 100, 255],
+          "mirror": "right_front_paw"
+        },
+        "right_front_shoulder": {
+          "parent": "spine_01",
+          "joint_type": "SHOULDER",
+          "color": [100, 150, 255],
+          "mirror": "left_front_shoulder"
+        },
+        "right_front_upper_leg": {
+          "parent": "right_front_shoulder",
+          "joint_type": "UPPER_LEG",
+          "color": [100, 120, 255],
+          "mirror": "left_front_upper_leg"
+        },
+        "right_front_lower_leg": {
+          "parent": "right_front_upper_leg",
+          "joint_type": "LOWER_LEG",
+          "color": [100, 100, 255],
+          "mirror": "left_front_lower_leg"
+        },
+        "right_front_paw": {
+          "parent": "right_front_lower_leg",
+          "joint_type": "FOOT",
+          "color": [150, 100, 255],
+          "mirror": "left_front_paw"
+        },
+        "left_rear_hip": {
+          "parent": "spine_03",
+          "joint_type": "HIP",
+          "color": [100, 255, 100],
+          "mirror": "right_rear_hip"
+        },
+        "left_rear_upper_leg": {
+          "parent": "left_rear_hip",
+          "joint_type": "UPPER_LEG",
+          "color": [150, 255, 100],
+          "mirror": "right_rear_upper_leg"
+        },
+        "left_rear_lower_leg": {
+          "parent": "left_rear_upper_leg",
+          "joint_type": "LOWER_LEG",
+          "color": [100, 255, 150],
+          "mirror": "right_rear_lower_leg"
+        },
+        "left_rear_paw": {
+          "parent": "left_rear_lower_leg",
+          "joint_type": "FOOT",
+          "color": [100, 255, 200],
+          "mirror": "right_rear_paw"
+        },
+        "right_rear_hip": {
+          "parent": "spine_03",
+          "joint_type": "HIP",
+          "color": [100, 255, 100],
+          "mirror": "left_rear_hip"
+        },
+        "right_rear_upper_leg": {
+          "parent": "right_rear_hip",
+          "joint_type": "UPPER_LEG",
+          "color": [150, 255, 100],
+          "mirror": "left_rear_upper_leg"
+        },
+        "right_rear_lower_leg": {
+          "parent": "right_rear_upper_leg",
+          "joint_type": "LOWER_LEG",
+          "color": [100, 255, 150],
+          "mirror": "left_rear_lower_leg"
+        },
+        "right_rear_paw": {
+          "parent": "right_rear_lower_leg",
+          "joint_type": "FOOT",
+          "color": [100, 255, 200],
+          "mirror": "left_rear_paw"
+        }
+      },
+      "default_rest_pose": "QUADRUPED_STAND",
+      "scale_reference": 1.0,
+      "compatibility": ["blender", "maya"]
+    },
+
+    "facial": {
+      "name": "Facial Rig (52 blendshapes)",
+      "description": "Лицевой скелет для анимации выражений лица",
+      "joint_count": 52,
+      "hierarchy": {
+        "head_root": {
+          "parent": null,
+          "joint_type": "HEAD",
+          "color": [255, 200, 150],
+          "mirror": "head_root"
+        },
+        "brow_center": {
+          "parent": "head_root",
+          "joint_type": "BROW",
+          "color": [200, 150, 100],
+          "mirror": "brow_center"
+        },
+        "left_brow_inner": {
+          "parent": "brow_center",
+          "joint_type": "BROW",
+          "color": [180, 130, 90],
+          "mirror": "right_brow_inner"
+        },
+        "left_brow_middle": {
+          "parent": "left_brow_inner",
+          "joint_type": "BROW",
+          "color": [160, 110, 80],
+          "mirror": "right_brow_middle"
+        },
+        "left_brow_outer": {
+          "parent": "left_brow_middle",
+          "joint_type": "BROW",
+          "color": [140, 90, 70],
+          "mirror": "right_brow_outer"
+        },
+        "right_brow_inner": {
+          "parent": "brow_center",
+          "joint_type": "BROW",
+          "color": [180, 130, 90],
+          "mirror": "left_brow_inner"
+        },
+        "right_brow_middle": {
+          "parent": "right_brow_inner",
+          "joint_type": "BROW",
+          "color": [160, 110, 80],
+          "mirror": "left_brow_middle"
+        },
+        "right_brow_outer": {
+          "parent": "right_brow_middle",
+          "joint_type": "BROW",
+          "color": [140, 90, 70],
+          "mirror": "left_brow_outer"
+        },
+        "left_eye": {
+          "parent": "head_root",
+          "joint_type": "EYE",
+          "color": [100, 200, 255],
+          "mirror": "right_eye"
+        },
+        "left_eye_upper_lid": {
+          "parent": "left_eye",
+          "joint_type": "EYELID",
+          "color": [80, 180, 235],
+          "mirror": "right_eye_upper_lid"
+        },
+        "left_eye_lower_lid": {
+          "parent": "left_eye",
+          "joint_type": "EYELID",
+          "color": [60, 160, 215],
+          "mirror": "right_eye_lower_lid"
+        },
+        "right_eye": {
+          "parent": "head_root",
+          "joint_type": "EYE",
+          "color": [100, 200, 255],
+          "mirror": "left_eye"
+        },
+        "right_eye_upper_lid": {
+          "parent": "right_eye",
+          "joint_type": "EYELID",
+          "color": [80, 180, 235],
+          "mirror": "left_eye_upper_lid"
+        },
+        "right_eye_lower_lid": {
+          "parent": "right_eye",
+          "joint_type": "EYELID",
+          "color": [60, 160, 215],
+          "mirror": "left_eye_lower_lid"
+        },
+        "nose_root": {
+          "parent": "head_root",
+          "joint_type": "NOSE",
+          "color": [255, 150, 100],
+          "mirror": "nose_root"
+        },
+        "nose_tip": {
+          "parent": "nose_root",
+          "joint_type": "NOSE",
+          "color": [235, 130, 80],
+          "mirror": "nose_tip"
+        },
+        "left_nostril": {
+          "parent": "nose_tip",
+          "joint_type": "NOSTRIL",
+          "color": [215, 110, 60],
+          "mirror": "right_nostril"
+        },
+        "right_nostril": {
+          "parent": "nose_tip",
+          "joint_type": "NOSTRIL",
+          "color": [215, 110, 60],
+          "mirror": "left_nostril"
+        },
+        "mouth": {
+          "parent": "head_root",
+          "joint_type": "MOUTH",
+          "color": [255, 100, 150],
+          "mirror": "mouth"
+        },
+        "upper_lip": {
+          "parent": "mouth",
+          "joint_type": "LIP",
+          "color": [235, 80, 130],
+          "mirror": "upper_lip"
+        },
+        "lower_lip": {
+          "parent": "mouth",
+          "joint_type": "LIP",
+          "color": [215, 60, 110],
+          "mirror": "lower_lip"
+        },
+        "left_mouth_corner": {
+          "parent": "mouth",
+          "joint_type": "MOUTH_CORNER",
+          "color": [195, 40, 90],
+          "mirror": "right_mouth_corner"
+        },
+        "right_mouth_corner": {
+          "parent": "mouth",
+          "joint_type": "MOUTH_CORNER",
+          "color": [195, 40, 90],
+          "mirror": "left_mouth_corner"
+        },
+        "jaw": {
+          "parent": "head_root",
+          "joint_type": "JAW",
+          "color": [200, 200, 100],
+          "mirror": "jaw"
+        },
+        "chin": {
+          "parent": "jaw",
+          "joint_type": "CHIN",
+          "color": [180, 180, 80],
+          "mirror": "chin"
+        },
+        "left_cheek": {
+          "parent": "head_root",
+          "joint_type": "CHEEK",
+          "color": [255, 150, 200],
+          "mirror": "right_cheek"
+        },
+        "right_cheek": {
+          "parent": "head_root",
+          "joint_type": "CHEEK",
+          "color": [255, 150, 200],
+          "mirror": "left_cheek"
+        }
+      },
+      "blendshapes": {
+        "brow_raise_left": ["left_brow_inner", "left_brow_middle", "left_brow_outer"],
+        "brow_raise_right": ["right_brow_inner", "right_brow_middle", "right_brow_outer"],
+        "brow_furrow": ["brow_center", "left_brow_inner", "right_brow_inner"],
+        "eye_blink_left": ["left_eye_upper_lid", "left_eye_lower_lid"],
+        "eye_blink_right": ["right_eye_upper_lid", "right_eye_lower_lid"],
+        "eye_wide_left": ["left_eye_upper_lid", "left_eye_lower_lid"],
+        "eye_wide_right": ["right_eye_upper_lid", "right_eye_lower_lid"],
+        "nose_scrunch": ["nose_root", "left_nostril", "right_nostril"],
+        "mouth_smile": ["left_mouth_corner", "right_mouth_corner", "upper_lip"],
+        "mouth_frown": ["left_mouth_corner", "right_mouth_corner", "lower_lip"],
+        "mouth_open": ["jaw", "lower_lip"],
+        "mouth_pucker": ["upper_lip", "lower_lip"],
+        "cheek_puff_left": ["left_cheek"],
+        "cheek_puff_right": ["right_cheek"]
+      },
+      "default_rest_pose": "NEUTRAL",
+      "scale_reference": 0.25,
+      "compatibility": ["blender", "maya", "unity"]
+    }
+  },
+
+  "rest_poses": {
+    "T_POSE": {
+      "description": "Классическая T-поза, руки вытянуты в стороны",
+      "joint_angles": {
+        "left_shoulder": [0, 0, 90],
+        "right_shoulder": [0, 0, -90],
+        "left_elbow": [0, 0, 0],
+        "right_elbow": [0, 0, 0],
+        "left_hip": [0, 0, 0],
+        "right_hip": [0, 0, 0],
+        "left_knee": [0, 0, 0],
+        "right_knee": [0, 0, 0]
+      }
+    },
+    "A_POSE": {
+      "description": "A-поза, руки под углом 45 градусов",
+      "joint_angles": {
+        "left_shoulder": [0, 0, 45],
+        "right_shoulder": [0, 0, -45],
+        "left_elbow": [0, 0, 0],
+        "right_elbow": [0, 0, 0],
+        "left_hip": [0, 0, 0],
+        "right_hip": [0, 0, 0],
+        "left_knee": [0, 0, 0],
+        "right_knee": [0, 0, 0]
+      }
+    },
+    "NEUTRAL": {
+      "description": "Нейтральная поза для лицевых анимаций",
+      "joint_angles": {
+        "brow_center": [0, 0, 0],
+        "left_eye_upper_lid": [0, 0, 0],
+        "right_eye_upper_lid": [0, 0, 0],
+        "mouth": [0, 0, 0],
+        "jaw": [0, 0, 0]
+      }
+    },
+    "QUADRUPED_STAND": {
+      "description": "Поза стоя для четвероногих животных",
+      "joint_angles": {
+        "spine_01": [0, 10, 0],
+        "spine_02": [0, 5, 0],
+        "spine_03": [0, 0, 0],
+        "neck": [0, -10, 0],
+        "left_front_upper_leg": [60, 0, 0],
+        "right_front_upper_leg": [60, 0, 0],
+        "left_rear_upper_leg": [-60, 0, 0],
+        "right_rear_upper_leg": [-60, 0, 0]
+      }
+    }
+  },
+
+  "export_presets": {
+    "blender_humanoid": {
+      "name": "Blender Humanoid",
+      "description": "Оптимизированные настройки для Blender",
+      "rotation_order": "XYZ",
+      "scale_factor": 0.01,
+      "convert_to_cm": false,
+      "apply_root_motion": true,
+      "bone_length_multiplier": 1.0
+    },
+    "unity_humanoid": {
+      "name": "Unity Humanoid",
+      "description": "Настройки для Unity Humanoid system",
+      "rotation_order": "ZXY",
+      "scale_factor": 1.0,
+      "convert_to_cm": true,
+      "apply_root_motion": false,
+      "bone_length_multiplier": 1.0
+    },
+    "maya_humanoid": {
+      "name": "Maya Human IK",
+      "description": "Настройки для Maya Human IK",
+      "rotation_order": "ZYX",
+      "scale_factor": 1.0,
+      "convert_to_cm": false,
+      "apply_root_motion": true,
+      "bone_length_multiplier": 1.0
+    },
+    "unreal_mannequin": {
+      "name": "Unreal Mannequin",
+      "description": "Настройки для Unreal Engine Mannequin",
+      "rotation_order": "XYZ",
+      "scale_factor": 1.0,
+      "convert_to_cm": true,
+      "apply_root_motion": true,
+      "bone_length_multiplier": 1.0
+    }
+  }
+}

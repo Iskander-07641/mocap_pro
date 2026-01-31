@@ -1,0 +1,495 @@
+2026-01-19 17:43:23,935 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 17:43:24,024 - core.pose_estimator - ERROR - MediaPipe не установлен. Трекинг будет работать в режиме заглушки.
+2026-01-19 17:43:24,024 - core.pose_estimator - INFO - PoseEstimator инициализирован
+2026-01-19 17:43:24,025 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 17:43:24,025 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 17:43:24,025 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 17:43:24,026 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 17:43:24,026 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 17:43:24,026 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 17:43:24,026 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 17:43:24,026 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 17:43:24,026 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 17:43:24,026 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 17:43:24,027 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 17:43:24,027 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 17:43:24,027 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 17:43:24,027 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 17:43:24,027 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 17:43:24,027 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 17:43:24,027 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 17:43:24,028 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 17:43:24,028 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 17:43:24,028 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 17:43:24,028 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 17:43:24,028 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 17:43:24,028 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 17:43:24,089 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 17:43:24,603 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 17:43:24,737 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 17:43:45,475 - ui.controls_panel - INFO - Режим изменён на: auto
+2026-01-19 17:44:17,184 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 17:44:17,185 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 17:44:17,185 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 17:44:17,185 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 17:44:17,185 - ui.main_window - INFO - Запись начата
+2026-01-19 17:44:17,232 - core.skeleton_tracker - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 17:44:17,233 - ui.main_window - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 17:44:27,724 - ui.controls_panel - INFO - Режим изменён на: manual
+2026-01-19 17:45:12,719 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 17:45:12,719 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-19 17:45:12,719 - ui.main_window - INFO - Приложение закрыто
+2026-01-19 17:45:12,784 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 17:45:12,784 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-19 17:45:12,784 - core.pose_estimator - INFO - PoseEstimator ресурсы освобождены
+2026-01-19 17:45:12,784 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 17:57:02,026 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 17:57:02,402 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 17:57:02,402 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 17:57:02,402 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 17:57:02,402 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 17:57:02,402 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 17:57:02,402 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 17:57:02,402 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 17:57:02,402 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 17:57:02,403 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 17:57:02,403 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 17:57:02,403 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 17:57:02,403 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 17:57:02,403 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 17:57:02,403 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 17:57:02,404 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 17:57:02,404 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 17:57:02,404 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 17:57:02,405 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 17:57:02,405 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 17:57:02,405 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 17:57:02,405 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 17:57:02,405 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 17:57:02,405 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 17:57:02,447 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 17:57:02,870 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 17:57:02,973 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 17:57:22,020 - ui.controls_panel - INFO - Режим изменён на: manual
+2026-01-19 17:57:24,154 - ui.controls_panel - INFO - Режим изменён на: auto
+2026-01-19 17:57:34,492 - ui.controls_panel - INFO - Режим изменён на: auto
+2026-01-19 17:58:13,704 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 17:58:13,704 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 17:58:13,704 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 17:58:13,705 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 17:58:13,705 - ui.main_window - INFO - Запись начата
+2026-01-19 17:58:13,732 - core.skeleton_tracker - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 17:58:13,733 - ui.main_window - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 17:58:31,394 - ui.controls_panel - INFO - Режим изменён на: manual
+2026-01-19 17:59:12,862 - ui.controls_panel - INFO - Режим изменён на: auto
+2026-01-19 17:59:16,583 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 17:59:16,584 - ui.main_window - INFO - Запись начата
+2026-01-19 17:59:23,280 - core.skeleton_tracker - INFO - Запись остановлена. Записано 3782 кадров
+2026-01-19 17:59:23,280 - ui.main_window - INFO - Запись остановлена. Записано 3782 кадров
+2026-01-19 18:00:52,695 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 18:00:52,695 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-19 18:00:52,695 - ui.main_window - INFO - Приложение закрыто
+2026-01-19 18:00:52,754 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 18:00:52,754 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-19 18:00:52,754 - core.pose_estimator - INFO - PoseEstimator ресурсы освобождены
+2026-01-19 18:00:52,754 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 18:22:44,321 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 18:23:19,697 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 18:23:19,699 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 18:23:19,699 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 18:23:19,699 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 18:23:19,699 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 18:23:19,699 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 18:23:19,699 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 18:23:19,699 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 18:23:19,700 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 18:23:19,700 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 18:23:19,700 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 18:23:19,774 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 18:23:20,162 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 18:23:20,294 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 18:23:45,835 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 18:23:45,835 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 18:23:45,835 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 18:23:45,836 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 18:23:45,836 - ui.main_window - INFO - Запись начата
+2026-01-19 18:23:45,845 - core.skeleton_tracker - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 18:23:45,845 - ui.main_window - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 18:24:15,978 - ui.controls_panel - INFO - Режим изменён на: manual
+2026-01-19 18:26:47,767 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 18:26:47,769 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-19 18:26:47,769 - ui.main_window - INFO - Приложение закрыто
+2026-01-19 18:26:47,851 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 18:26:47,851 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-19 18:26:47,889 - core.pose_estimator - INFO - PoseEstimator ресурсы освобождены
+2026-01-19 18:26:47,889 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 19:00:19,220 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 19:00:19,372 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 19:00:19,372 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 19:00:19,373 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 19:00:19,373 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 19:00:19,374 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 19:00:19,374 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 19:00:19,374 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 19:00:19,375 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 19:00:19,375 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 19:00:19,376 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 19:00:19,376 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 19:00:19,376 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 19:00:19,376 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 19:00:19,378 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 19:00:19,378 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 19:00:19,379 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 19:00:19,379 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 19:00:19,379 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 19:00:19,380 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 19:00:19,380 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 19:00:19,380 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 19:00:19,381 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 19:00:19,381 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 19:00:19,461 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 19:00:20,148 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 19:00:20,466 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 19:01:03,581 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 19:01:03,583 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 19:01:03,583 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 19:01:03,583 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 19:01:03,583 - ui.main_window - INFO - Запись начата
+2026-01-19 19:01:03,679 - core.skeleton_tracker - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 19:01:03,680 - ui.main_window - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 19:10:48,975 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 19:10:49,186 - core.hand_tracker - INFO - да HandTracker инициализирован
+2026-01-19 19:10:49,187 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 19:10:49,188 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 19:10:49,188 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 19:10:49,189 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 19:10:49,190 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 19:10:49,190 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 19:10:49,191 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 19:10:49,191 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 19:10:49,192 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 19:10:49,192 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 19:10:49,194 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 19:10:49,195 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 19:10:49,195 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 19:10:49,196 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 19:10:49,196 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 19:10:49,196 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 19:10:49,197 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 19:10:49,197 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 19:10:49,198 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 19:10:49,198 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 19:10:49,198 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 19:10:49,200 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 19:10:49,201 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 19:10:49,404 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 19:10:50,226 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 19:10:50,577 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 19:11:42,826 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 19:11:42,827 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 19:11:42,827 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 19:11:42,827 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 19:11:42,829 - ui.main_window - INFO - Запись начата
+2026-01-19 19:11:42,919 - core.skeleton_tracker - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 19:11:42,919 - ui.main_window - INFO - Запись остановлена. Записано 0 кадров
+2026-01-19 19:15:08,395 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 19:15:08,474 - core.pose_estimator - INFO - да PoseEstimator инициализирован (MediaPipe 0.10.21)
+2026-01-19 19:15:08,493 - core.hand_tracker - INFO - да HandTracker инициализирован
+2026-01-19 19:15:08,494 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 19:15:08,495 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 19:15:08,495 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 19:15:08,497 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 19:15:08,498 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 19:15:08,498 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 19:15:08,499 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 19:15:08,500 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 19:15:08,500 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 19:15:08,501 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 19:15:08,501 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 19:15:08,501 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 19:15:08,502 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 19:15:08,502 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 19:15:08,503 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 19:15:08,503 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 19:15:08,503 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 19:15:08,504 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 19:15:08,504 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 19:15:08,504 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 19:15:08,505 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 19:15:08,505 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 19:15:08,506 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 19:15:08,614 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 19:15:09,614 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 19:15:09,920 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 19:15:53,306 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 19:15:53,308 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 19:15:53,308 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 19:15:53,309 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 19:15:53,309 - ui.main_window - INFO - Запись начата
+2026-01-19 20:03:22,645 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 20:03:22,723 - core.pose_estimator - INFO - да PoseEstimator инициализирован (MediaPipe 0.10.21)
+2026-01-19 20:03:22,731 - core.hand_tracker - INFO - да HandTracker инициализирован
+2026-01-19 20:03:22,732 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 20:03:22,732 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 20:03:22,732 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 20:03:22,732 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 20:03:22,732 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 20:03:22,733 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 20:03:22,733 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 20:03:22,733 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 20:03:22,733 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 20:03:22,733 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 20:03:22,733 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 20:03:22,734 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 20:03:22,734 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 20:03:22,734 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 20:03:22,734 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 20:03:22,734 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 20:03:22,734 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 20:03:22,735 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 20:03:22,735 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 20:03:22,735 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 20:03:22,735 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 20:03:22,735 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 20:03:22,735 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 20:03:22,836 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 20:03:23,436 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 20:03:23,692 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 20:03:52,675 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 20:03:52,676 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 20:03:52,676 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 20:03:52,676 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 20:03:52,676 - ui.main_window - INFO - Запись начата
+2026-01-19 20:05:41,176 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 20:05:41,206 - core.pose_estimator - INFO - да PoseEstimator инициализирован (MediaPipe 0.10.21)
+2026-01-19 20:05:41,213 - core.hand_tracker - INFO - да HandTracker инициализирован
+2026-01-19 20:05:41,213 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 20:05:41,215 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 20:05:41,215 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 20:05:41,216 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 20:05:41,216 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 20:05:41,216 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 20:05:41,216 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 20:05:41,217 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 20:05:41,217 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 20:05:41,217 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 20:05:41,217 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 20:05:41,217 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 20:05:41,218 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 20:05:41,218 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 20:05:41,218 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 20:05:41,218 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 20:05:41,218 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 20:05:41,218 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 20:05:41,219 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 20:05:41,219 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 20:05:41,220 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 20:05:41,220 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 20:05:41,220 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 20:05:41,291 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 20:05:41,819 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 20:05:41,958 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 20:06:08,431 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 20:06:08,431 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 20:06:08,432 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 20:06:08,432 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 20:06:08,432 - ui.main_window - INFO - Запись начата
+2026-01-19 20:17:28,152 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-19 20:17:28,241 - core.pose_estimator - INFO - да PoseEstimator инициализирован (MediaPipe 0.10.21)
+2026-01-19 20:17:28,249 - core.hand_tracker - INFO - да HandTracker инициализирован
+2026-01-19 20:17:28,249 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-19 20:17:28,250 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-19 20:17:28,250 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-19 20:17:28,253 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-19 20:17:28,253 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-19 20:17:28,254 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-19 20:17:28,254 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-19 20:17:28,254 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-19 20:17:28,254 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-19 20:17:28,254 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-19 20:17:28,255 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-19 20:17:28,255 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-19 20:17:28,255 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-19 20:17:28,255 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-19 20:17:28,255 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-19 20:17:28,256 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-19 20:17:28,256 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-19 20:17:28,256 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-19 20:17:28,256 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-19 20:17:28,256 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-19 20:17:28,256 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-19 20:17:28,257 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-19 20:17:28,257 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-19 20:17:28,358 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-19 20:17:28,887 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-19 20:17:29,015 - __main__ - INFO - Приложение запущено успешно
+2026-01-19 20:18:15,637 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-19 20:18:15,638 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-19 20:18:15,638 - ui.main_window - INFO - Трекинг запущен
+2026-01-19 20:18:15,638 - core.skeleton_tracker - INFO - Запись начата
+2026-01-19 20:18:15,639 - ui.main_window - INFO - Запись начата
+2026-01-19 20:22:10,425 - core.skeleton_tracker - INFO - Запись остановлена. Записано 1700 кадров
+2026-01-19 20:22:10,429 - ui.main_window - INFO - Запись остановлена. Записано 1700 кадров
+2026-01-19 20:26:44,566 - ui.controls_panel - INFO - Режим изменён на: manual
+2026-01-19 20:26:48,205 - ui.controls_panel - INFO - Режим изменён на: auto
+2026-01-19 20:26:48,608 - ui.controls_panel - INFO - Режим изменён на: manual
+2026-01-19 20:26:49,036 - ui.controls_panel - INFO - Режим изменён на: auto
+2026-01-19 20:28:41,856 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 20:28:41,858 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-19 20:28:41,859 - ui.main_window - INFO - Приложение закрыто
+2026-01-19 20:28:41,924 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-19 20:28:41,924 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-19 20:28:41,967 - core.pose_estimator - INFO - PoseEstimator ресурсы освобождены
+2026-01-19 20:28:41,984 - core.hand_tracker - INFO - HandTracker ресурсы освобождены
+2026-01-19 20:28:41,984 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-20 13:57:10,022 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-20 13:57:10,186 - core.pose_estimator - INFO - да PoseEstimator инициализирован (MediaPipe 0.10.21)
+2026-01-20 13:57:10,227 - core.hand_tracker - INFO - да HandTracker инициализирован
+2026-01-20 13:57:10,228 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-20 13:57:10,229 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-20 13:57:10,231 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-20 13:57:10,233 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-20 13:57:10,234 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-20 13:57:10,234 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-20 13:57:10,235 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-20 13:57:10,235 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-20 13:57:10,236 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-20 13:57:10,236 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-20 13:57:10,237 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-20 13:57:10,240 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-20 13:57:10,245 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-20 13:57:10,247 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-20 13:57:10,248 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-20 13:57:10,248 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-20 13:57:10,249 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-20 13:57:10,249 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-20 13:57:10,249 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-20 13:57:10,250 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-20 13:57:10,250 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-20 13:57:10,251 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-20 13:57:10,252 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-20 13:57:10,433 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-20 13:57:11,402 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-20 13:57:11,854 - __main__ - INFO - Приложение запущено успешно
+2026-01-20 13:58:15,663 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-20 13:58:15,665 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-20 13:58:15,665 - ui.main_window - INFO - Трекинг запущен
+2026-01-20 13:58:15,665 - core.skeleton_tracker - INFO - Запись начата
+2026-01-20 13:58:15,666 - ui.main_window - INFO - Запись начата
+2026-01-20 13:59:23,696 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-20 13:59:23,697 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-20 13:59:23,697 - core.skeleton_tracker - INFO - Запись остановлена. Записано 203 кадров
+2026-01-20 13:59:23,697 - ui.main_window - INFO - Приложение закрыто
+2026-01-20 13:59:23,833 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-20 13:59:23,833 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-20 13:59:23,881 - core.pose_estimator - INFO - PoseEstimator ресурсы освобождены
+2026-01-20 13:59:23,902 - core.hand_tracker - INFO - HandTracker ресурсы освобождены
+2026-01-20 13:59:23,902 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-20 14:27:21,025 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-20 14:27:21,267 - core.pose_estimator - INFO - да PoseEstimator инициализирован (MediaPipe 0.10.21)
+2026-01-20 14:27:21,315 - core.hand_tracker - INFO - да HandTracker инициализирован
+2026-01-20 14:27:21,316 - core.skeleton - INFO - Добавлена кость: Bone(Hips, parent=None, length=0.150)
+2026-01-20 14:27:21,316 - core.skeleton - INFO - Добавлена кость: Bone(Spine, parent=Hips, length=0.200)
+2026-01-20 14:27:21,316 - core.skeleton - INFO - Добавлена кость: Bone(Spine1, parent=Spine, length=0.150)
+2026-01-20 14:27:21,317 - core.skeleton - INFO - Добавлена кость: Bone(Spine2, parent=Spine1, length=0.150)
+2026-01-20 14:27:21,317 - core.skeleton - INFO - Добавлена кость: Bone(Neck, parent=Spine2, length=0.100)
+2026-01-20 14:27:21,318 - core.skeleton - INFO - Добавлена кость: Bone(Head, parent=Neck, length=0.150)
+2026-01-20 14:27:21,318 - core.skeleton - INFO - Добавлена кость: Bone(LeftShoulder, parent=Spine2, length=0.100)
+2026-01-20 14:27:21,319 - core.skeleton - INFO - Добавлена кость: Bone(LeftArm, parent=LeftShoulder, length=0.300)
+2026-01-20 14:27:21,319 - core.skeleton - INFO - Добавлена кость: Bone(LeftForeArm, parent=LeftArm, length=0.250)
+2026-01-20 14:27:21,319 - core.skeleton - INFO - Добавлена кость: Bone(LeftHand, parent=LeftForeArm, length=0.100)
+2026-01-20 14:27:21,321 - core.skeleton - INFO - Добавлена кость: Bone(RightShoulder, parent=Spine2, length=0.100)
+2026-01-20 14:27:21,321 - core.skeleton - INFO - Добавлена кость: Bone(RightArm, parent=RightShoulder, length=0.300)
+2026-01-20 14:27:21,322 - core.skeleton - INFO - Добавлена кость: Bone(RightForeArm, parent=RightArm, length=0.250)
+2026-01-20 14:27:21,322 - core.skeleton - INFO - Добавлена кость: Bone(RightHand, parent=RightForeArm, length=0.100)
+2026-01-20 14:27:21,323 - core.skeleton - INFO - Добавлена кость: Bone(LeftUpLeg, parent=Hips, length=0.400)
+2026-01-20 14:27:21,323 - core.skeleton - INFO - Добавлена кость: Bone(LeftLeg, parent=LeftUpLeg, length=0.400)
+2026-01-20 14:27:21,324 - core.skeleton - INFO - Добавлена кость: Bone(LeftFoot, parent=LeftLeg, length=0.150)
+2026-01-20 14:27:21,324 - core.skeleton - INFO - Добавлена кость: Bone(LeftToeBase, parent=LeftFoot, length=0.050)
+2026-01-20 14:27:21,326 - core.skeleton - INFO - Добавлена кость: Bone(RightUpLeg, parent=Hips, length=0.400)
+2026-01-20 14:27:21,326 - core.skeleton - INFO - Добавлена кость: Bone(RightLeg, parent=RightUpLeg, length=0.400)
+2026-01-20 14:27:21,326 - core.skeleton - INFO - Добавлена кость: Bone(RightFoot, parent=RightLeg, length=0.150)
+2026-01-20 14:27:21,327 - core.skeleton - INFO - Добавлена кость: Bone(RightToeBase, parent=RightFoot, length=0.050)
+2026-01-20 14:27:21,327 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-20 14:27:21,664 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-20 14:27:26,327 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-20 14:27:26,610 - __main__ - INFO - Приложение запущено успешно
+2026-01-20 14:28:20,934 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-20 14:28:20,935 - core.skeleton_tracker - INFO - Трекинг запущен
+2026-01-20 14:28:20,935 - ui.main_window - INFO - Трекинг запущен
+2026-01-20 14:28:20,935 - core.skeleton_tracker - INFO - Запись начата
+2026-01-20 14:28:20,936 - ui.main_window - INFO - Запись начата
+2026-01-20 14:31:20,603 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-20 14:31:20,605 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-20 14:31:20,605 - core.skeleton_tracker - INFO - Запись остановлена. Записано 569 кадров
+2026-01-20 14:31:20,606 - ui.main_window - INFO - Приложение закрыто
+2026-01-20 14:31:20,763 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-20 14:31:20,764 - core.skeleton_tracker - INFO - Трекинг остановлен
+2026-01-20 14:31:20,809 - core.pose_estimator - INFO - PoseEstimator ресурсы освобождены
+2026-01-20 14:31:20,829 - core.hand_tracker - INFO - HandTracker ресурсы освобождены
+2026-01-20 14:31:20,829 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-20 16:17:24,615 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-20 16:17:24,714 - core.pose_estimator - INFO - PoseEstimator успешно инициализирован (MediaPipe)
+2026-01-20 16:17:24,722 - core.hand_tracker - INFO - HandTracker успешно инициализирован
+2026-01-20 16:17:24,723 - core.skeleton - INFO - Human skeleton created
+2026-01-20 16:17:24,723 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-20 16:17:24,829 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-20 16:17:25,301 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-20 16:17:25,435 - __main__ - INFO - Приложение запущено успешно
+2026-01-20 16:17:51,014 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-20 16:17:51,015 - ui.main_window - INFO - Трекинг запущен
+2026-01-20 16:17:51,015 - ui.main_window - INFO - Запись начата
+2026-01-20 16:20:46,901 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-20 16:20:46,928 - core.pose_estimator - INFO - PoseEstimator успешно инициализирован (MediaPipe)
+2026-01-20 16:20:46,935 - core.hand_tracker - INFO - HandTracker успешно инициализирован
+2026-01-20 16:20:46,937 - core.skeleton - INFO - Human skeleton created
+2026-01-20 16:20:46,937 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-20 16:20:46,996 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-20 16:20:47,365 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-20 16:20:47,487 - __main__ - INFO - Приложение запущено успешно
+2026-01-20 16:21:10,447 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-20 16:21:10,448 - ui.main_window - INFO - Трекинг запущен
+2026-01-20 16:21:10,448 - ui.main_window - INFO - Запись начата
+2026-01-20 16:21:51,153 - ui.controls_panel - INFO - Режим изменён на: manual
+2026-01-20 16:35:10,857 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-20 16:35:10,884 - core.pose_estimator - INFO - PoseEstimator успешно инициализирован (MediaPipe)
+2026-01-20 16:35:10,891 - core.hand_tracker - INFO - HandTracker успешно инициализирован
+2026-01-20 16:35:10,892 - core.skeleton - INFO - Human skeleton created
+2026-01-20 16:35:10,892 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован
+2026-01-20 16:35:10,945 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-20 16:35:11,408 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-20 16:35:11,515 - __main__ - INFO - Приложение запущено успешно
+2026-01-20 16:35:32,407 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-20 16:35:32,408 - ui.main_window - INFO - Трекинг запущен
+2026-01-20 16:35:32,408 - ui.main_window - INFO - Запись начата
+2026-01-20 16:39:17,356 - core.skeleton_tracker - INFO - Скелет откалиброван
+2026-01-20 16:39:19,252 - core.skeleton_tracker - INFO - Скелет откалиброван
+2026-01-20 16:39:28,478 - core.camera_manager - INFO - Начинаем калибровку камеры...
+2026-01-20 18:01:21,753 - __main__ - INFO - Запуск Motion Capture Pro...
+2026-01-20 18:01:21,838 - core.pose_estimator - INFO - PoseEstimator успешно инициализирован (MediaPipe)
+2026-01-20 18:01:21,863 - core.hand_tracker - INFO - HandTracker успешно инициализирован
+2026-01-20 18:01:21,866 - core.skeleton - INFO - Human skeleton created
+2026-01-20 18:01:21,867 - core.skeleton_tracker - INFO - SkeletonTracker инициализирован (Full-Body + Hands)
+2026-01-20 18:01:21,973 - ui.controls_panel - INFO - ControlsPanel инициализирован
+2026-01-20 18:01:22,933 - ui.main_window - INFO - Главное окно инициализировано
+2026-01-20 18:01:23,278 - __main__ - INFO - Приложение запущено успешно
+2026-01-20 18:02:44,849 - core.camera_manager - INFO - Захват с камеры 0 запущен. Разрешение: (1280, 720)
+2026-01-20 18:02:44,851 - ui.main_window - INFO - Трекинг запущен
+2026-01-20 18:02:44,852 - ui.main_window - INFO - Запись начата
+2026-01-20 18:02:44,921 - ui.main_window - INFO - Запись остановлена. Кадров: 0
+2026-01-20 18:04:15,489 - ui.main_window - INFO - Запись начата
+2026-01-20 18:04:30,695 - core.camera_manager - INFO - Захват с камеры остановлен
+2026-01-20 18:04:30,696 - ui.main_window - INFO - Приложение закрыто
+2026-01-20 18:04:30,967 - core.camera_manager - INFO - Захват с камеры остановлен
